@@ -13,10 +13,11 @@ public class App {
          System.out.println(pistaCiclabile.getElementoSuccessivo()); 
          System.out.println(pistaCiclabile.getElementoSuccessivo()); 
          System.out.println(pistaCiclabile.getElementoSuccessivo()); 
-         System.out.println(pistaCiclabile.getElementoSuccessivo()); 
 
-    
-    
+        pistaCiclabile.addElemento(30);
+
+        System.out.println(pistaCiclabile.getElementoSuccessivo()); 
+        
     
     }
 }

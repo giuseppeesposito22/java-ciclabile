@@ -17,6 +17,24 @@ public class Ciclabile {
     }
 
 
+    public Ciclabile(){
+        this.elencoInteri = new int[2];
+        this.index = 0;
+    }
+
+
+    public void addElemento(int nuovoElemento){
+        int[] nuovoArray = new int[elencoInteri.length + 1];
+        for(int i = 0; i < elencoInteri.length; i++){
+            nuovoArray[i] = elencoInteri[i];
+        }
+
+        nuovoArray[elencoInteri.length] = nuovoElemento;
+        elencoInteri = nuovoArray;
+
+
+    }
+
 
 
 
